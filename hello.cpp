@@ -69,6 +69,8 @@ typedef vector<vl> vvl;
 
 void solve() {
   cout << "hey" << endl;
+    cout << "the code is changed now" ;
+    cout <<'prince branch';
 }
 
 int main() {
