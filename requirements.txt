@@ -1,0 +1,12 @@
+﻿# Training / notebook dependencies
+# The corrected MuSe rerun used TensorFlow 2.21.0; retain each run's environment record for exact reproduction.
+tensorflow
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+joblib
+openpyxl
+jupyter

@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local backups, reports, and manuscript/Overleaf sources
+.local_archive/
+paper2_revision/
+review_work/
+tmp/
+output/
+**/overleaf*/
+*.tex
+*.bib
+*.cls
+*.sty
+*.bst
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Large local WESAD recordings (preserved on disk)
+/datasets/WESAD/*
+!/datasets/WESAD/README.md
+
+# Generated training artifacts (preserved on disk)
+/results/**
+
+
+*.keras
+*.h5
+*.hdf5
+*.ckpt*
+*.log
+
+# Machine-specific / secret files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+__MACOSX/
